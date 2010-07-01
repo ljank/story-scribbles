@@ -16,8 +16,6 @@ ${cursor}&#13;
 &lt;?php endif; ?&gt;</template>
 	<template autoinsert="true" context="html_tag" deleted="false" description="CakePHP $html-&gt;image()" enabled="true" id="org.eclipse.wst.html.ui.templates.imgmap" name="img">&lt;?php echo $$html-&gt;image(${imagename}); ?&gt;&#13;
 ${cursor}</template>
-	<template autoinsert="true" context="html_all" deleted="false" description="CakePHP - $html-&gt;link()" enabled="true" name="linka">&lt;?php echo $$html-&gt;link('${title}', array('action' =&gt; '${action}')); ?&gt;&#13;
-${cursor}</template>
-	<template autoinsert="true" context="html_all" deleted="false" description="CakePHP - $html-&gt;link()" enabled="true" name="linkca">&lt;?php echo $$html-&gt;link(${title}, array('controller' =&gt; '${controller}', 'action' =&gt; '${action}')); ?&gt;&#13;
-${cursor}</template>
+	<template autoinsert="true" context="html_all" deleted="false" description="CakePHP - $html-&gt;link()" enabled="true" name="linka">&lt;?php echo $$html-&gt;link(${title}, array('action' =&gt; '${action}')); ?&gt;${cursor}</template>
+	<template autoinsert="true" context="html_all" deleted="false" description="CakePHP - $html-&gt;link()" enabled="true" name="linkca">&lt;?php echo $$html-&gt;link(${title}, array('controller' =&gt; '${controller}', 'action' =&gt; '${action}')); ?&gt;${cursor}</template>
 </templates>
