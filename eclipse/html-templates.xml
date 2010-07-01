@@ -18,4 +18,18 @@ ${cursor}&#13;
 ${cursor}</template>
 	<template autoinsert="true" context="html_all" deleted="false" description="CakePHP - $html-&gt;link()" enabled="true" name="linka">&lt;?php echo $$html-&gt;link(${title}, array('action' =&gt; '${action}')); ?&gt;${cursor}</template>
 	<template autoinsert="true" context="html_all" deleted="false" description="CakePHP - $html-&gt;link()" enabled="true" name="linkca">&lt;?php echo $$html-&gt;link(${title}, array('controller' =&gt; '${controller}', 'action' =&gt; '${action}')); ?&gt;${cursor}</template>
+	<template autoinsert="true" context="html_all" deleted="false" description="CakePHP - Views - index action table" enabled="true" name="indextable">&lt;?php if(${dollar}${list}): ?&gt;&#13;
+    &lt;table&gt;&#13;
+        &lt;tr&gt;&#13;
+            &lt;th&gt;${cursor}&lt;/th&gt;&#13;
+        &lt;/tr&gt;&#13;
+        &lt;?php foreach(${dollar}${list} as ${dollar}${item}): ?&gt;&#13;
+            &lt;tr&gt;&#13;
+                &lt;td&gt;&lt;/td&gt;&#13;
+            &lt;/tr&gt;&#13;
+        &lt;?php endforeach; ?&gt;&#13;
+    &lt;/table&gt;&#13;
+&lt;?php else:?&gt;&#13;
+    ${empty}&#13;
+&lt;?php endif; ?&gt;</template>
 </templates>
