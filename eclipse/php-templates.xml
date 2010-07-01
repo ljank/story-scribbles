@@ -118,4 +118,9 @@ function save($$id = NULL)&#13;
     return true;&#13;
 }</template>
 	<template autoinsert="true" context="php" deleted="false" description="CakePHP - Controller - redirect(referer()) composition" enabled="true" name="rediref">$$this-&gt;redirect($$this-&gt;referer(${}));${cursor}</template>
+	<template autoinsert="true" context="php" deleted="false" description="CakePHP - Model - skelet" enabled="true" name="mdl">class ${name}&#13;
+        extends ${App}Model&#13;
+{&#13;
+    ${cursor}&#13;
+}</template>
 </templates>
